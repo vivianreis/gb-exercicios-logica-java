@@ -14,13 +14,13 @@ public class ex5 {
 		final double pesoNota2 = 3;
 		final double pesoNota3 = 5;
 		
-		System.out.println("Digite a primeira nota: ");
+		System.out.print("Digite a primeira nota: ");
 		nota1 = leitura.nextDouble();
 		
-		System.out.println("Digite a segunda nota: ");
+		System.out.print("Digite a segunda nota: ");
 		nota2 = leitura.nextDouble();
 		
-		System.out.println("Digite a terceira nota: ");
+		System.out.print("Digite a terceira nota: ");
 		nota3 = leitura.nextDouble();
 		
 		mediaFinal = ((nota1 * pesoNota1) + (nota2 * pesoNota2) + (nota3 * pesoNota3))/10;
