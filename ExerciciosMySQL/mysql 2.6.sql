@@ -1,0 +1,1 @@
+update tb_produtos set ativo = false where id = 1;
